@@ -16,10 +16,4 @@ function openOrSenior(data) {
 }
 
 console.log(
-  openOrSenior([
-    [45, 12],
-    [55, 21],
-    [19, -2],
-    [104, 20],
-  ])
-);
+  openOrSenior([[45, 12], [55, 21], [19, -2], [104, 20],]));
