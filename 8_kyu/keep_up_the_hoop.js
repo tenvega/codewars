@@ -6,14 +6,9 @@
 // If he doesn't get 10 hoops, return the string "Keep at it until you get it".
 
 function hoopCount (n) {
-      if (n > 10){
-        return "Great, now move on to tricks"
-      }else if(n < 10){
-        return "Keep at it until you get it"
-        
-  
-    }
+  return (n < 10) ? 'Keep at it until you get it' : 'Great, now move on to tricks';
 }
+
 
 console.log(hoopCount(3))
 console.log(hoopCount(11))
